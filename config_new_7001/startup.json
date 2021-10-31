@@ -1,0 +1,14 @@
+{
+  "apps": [{
+    "name": "ITGO-TELEGRAM-7001",
+    "script": "./bin/www",
+    "watch": false,
+    "ignore_watch": ["node_modules", "logs", "mogodb-backup", "www", "config"],
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "env_production": {
+      "NODE_ENV": "production"
+    }
+  }]
+}
